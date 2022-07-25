@@ -89,7 +89,7 @@ publishing:
     copyAssets: true
     siteHierarchies:
         - root
-    writeStubs: false
+    writeStubs: true
     siteRootDir: docs
     seo:
         title: Dendron Tech Notes
