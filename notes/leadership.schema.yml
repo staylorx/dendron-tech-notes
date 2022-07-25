@@ -1,0 +1,11 @@
+version: 1
+schemas:
+- id: leadership
+  desc: My notes on leadership topics
+  parent: root
+  namespace: true
+  children:
+    - books
+- id: books
+  desc: leadership books
+  namespace: true

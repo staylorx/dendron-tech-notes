@@ -22,6 +22,10 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: templates
+            seed: dendron.templates
+            name: dendron.templates
+        -
             fsPath: .
             selfContained: true
             name: dendron-tech-notes
@@ -73,6 +77,8 @@ workspace:
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
     enableSmartRefs: true
+    seeds:
+        dendron.templates: {}
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -107,3 +113,8 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - dendron.templates
+            - dendron-tech-notes

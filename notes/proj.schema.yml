@@ -1,0 +1,11 @@
+version: 1
+imports: []
+schemas:
+  - id: proj
+    children: []
+    title: Project
+    namespace: true
+    parent: root
+    template:
+      id: templates.project
+      type: note
