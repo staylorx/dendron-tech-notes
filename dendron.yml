@@ -1,7 +1,6 @@
 version: 5
 dev:
     enablePreviewV2: true
-    enableSelfContainedVaults: true
 commands:
     lookup:
         note:
@@ -24,11 +23,7 @@ commands:
 workspace:
     vaults:
         -
-            fsPath: templates
-            seed: dendron.templates
-            name: dendron.templates
-        -
-            fsPath: .
+            fsPath: notes
             selfContained: true
             name: dendron-tech-notes
     journal:
@@ -78,9 +73,7 @@ workspace:
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
     enableHandlebarTemplates: true
-    enableSmartRefs: true
-    seeds:
-        dendron.templates: {}
+    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -115,10 +108,9 @@ publishing:
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
-    enableTaskNotes: true
     enablePrettyLinks: true
     duplicateNoteBehavior:
         action: useVault
         payload:
-            - dendron.templates
-            - dendron-tech-notes
+            - notes
+    enableTaskNotes: true
