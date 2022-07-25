@@ -12,6 +12,8 @@ commands:
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
     randomNote: {}
+    insertNote:
+        initialValue: templates
     insertNoteLink:
         aliasMode: none
         enableMultiSelect: false
@@ -52,20 +54,19 @@ workspace:
             delegated: l
             dropped: d
             pending: 'y'
-        taskCompleteStatus:
-            - done
-            - x
         prioritySymbols:
             H: high
             M: medium
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     graph:
         zoomSpeed: 1
         createStub: false
     enableAutoCreateOnDefinition: false
-    enableHandlebarTemplates: true
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
     enableUserTags: true
@@ -76,6 +77,7 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
+    enableHandlebarTemplates: true
     enableSmartRefs: true
     seeds:
         dendron.templates: {}
@@ -89,6 +91,8 @@ preview:
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
+    assetsPrefix: /dendron-tech-notes
+    siteUrl: https://staylorx.github.io
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
@@ -100,8 +104,8 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dendron
-        description: Personal Knowledge Space
+        title: Dendron Tech Notes
+        description: Collection of notes related to technology
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
