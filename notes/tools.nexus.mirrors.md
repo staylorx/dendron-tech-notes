@@ -2,7 +2,7 @@
 id: szlb6ma4pbf2mbt9vw4gk8r
 title: Mirrors
 desc: ''
-updated: 1658777454902
+updated: 1658785646636
 created: 1658775728845
 ---
 
@@ -34,4 +34,4 @@ registries = ['192.168.1.11:8880']
 #...
 ```
 
-Once this is configured, I run a script, [[notes\files\cache_images.sh]] from time to time to ensure I have the latest versions in the proxy. 
+Once this is configured, I run a script (here: [[assets\files\cache_images.sh]]) from time to time to ensure I have the latest versions in the proxy. 

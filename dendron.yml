@@ -21,8 +21,6 @@ commands:
 workspace:
     vaults:
         - fsPath: notes
-          selfContained: true
-          name: dendron-tech-notes
     journal:
         dailyDomain: daily
         name: journal
@@ -82,7 +80,7 @@ preview:
     automaticallyShowPreview: false
 publishing:
     assetsPrefix: /dendron-tech-notes
-    siteUrl: https://staylorx.github.io
+    siteUrl: "https://staylorx.github.io"
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
