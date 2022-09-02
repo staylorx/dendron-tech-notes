@@ -6,6 +6,33 @@ updated: 1659538007511
 created: 1658775728845
 ---
 
+## Mirror Maven repos for Gradle
+
+In the `$USERHOME/.gradle/init.gradle` file,
+
+```
+allprojects {
+    buildscript {
+        repositories {
+            mavenLocal()
+            maven { 
+				url "http://192.168.1.11:8088/repository/maven-public/" 
+				allowInsecureProtocol = true
+			}
+        }
+    }
+
+    repositories {
+        mavenLocal()
+            maven { 
+				url "http://192.168.1.11:8088/repository/maven-public/" 
+				allowInsecureProtocol = true
+			}
+		}
+    }
+}
+```
+
 ## Mirror PyPi, for instance
 
 Create the following in a `pip.ini` or `pip.conf` file. In Conda&mdash;where I tend to use this the most&mdash;place the file in each environment folder and it works great.
