@@ -16,9 +16,9 @@ allprojects {
         repositories {
             mavenLocal()
             maven { 
-		url "http://192.168.1.11:8088/repository/maven-public/" 
-		allowInsecureProtocol = true
-	    }
+                url "http://192.168.1.11:8088/repository/maven-public/" 
+                allowInsecureProtocol = true
+            }
         }
     }
 
