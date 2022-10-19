@@ -54,5 +54,8 @@ docker pull linuxserver/musicbrainz
 docker pull apache/nifi-registry
 docker pull apache/nifi
 
+# blockchain, smart contracts, and DAO
+docker pull ethereum/solc:stable
+
 # If caching/mirroring is setup right, I should feel perfectly okay doing the following:
 # docker system prune --all --force --volumes
