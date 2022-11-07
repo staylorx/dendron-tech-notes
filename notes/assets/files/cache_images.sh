@@ -8,6 +8,17 @@
 #
 # It has the added benefit of greatly increasing development velocity.
 #
+
+# MacOS
+# https://hub.docker.com/r/sickcodes/docker-osx
+docker pull sickcodes/docker-osx:latest
+docker pull sickcodes/docker-osx:auto
+docker pull sickcodes/docker-osx:high-sierra
+docker pull sickcodes/docker-osx:mojave
+docker pull sickcodes/docker-osx:big-sur
+docker pull sickcodes/docker-osx:monterey
+
+# development tools
 docker pull sonatype/nexus3
 docker pull node
 docker pull python
