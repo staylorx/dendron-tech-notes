@@ -18,6 +18,9 @@ docker pull sickcodes/docker-osx:mojave
 docker pull sickcodes/docker-osx:big-sur
 docker pull sickcodes/docker-osx:monterey
 
+# I&C OT
+docker pull inductiveautomation/ignition
+ 
 # development tools
 docker pull sonatype/nexus3
 docker pull node
