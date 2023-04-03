@@ -20,6 +20,9 @@
 
 docker system prune --all --force --volumes
 
+# I&C OT
+docker pull inductiveautomation/ignition
+ 
 # development tools
 docker pull sonatype/nexus3
 docker pull node
