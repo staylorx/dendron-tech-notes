@@ -1,0 +1,110 @@
+<h1 id="mirrors"><a aria-hidden="true" class="anchor-heading icon-link" href="#mirrors"></a>Mirrors</h1>
+<h2 id="mirror-maven-repos-for-gradle"><a aria-hidden="true" class="anchor-heading icon-link" href="#mirror-maven-repos-for-gradle"></a>Mirror Maven repos for Gradle</h2>
+<p>In the <code>$USERHOME/.gradle/init.gradle</code> file,</p>
+<pre><code>allprojects {
+    buildscript {
+        repositories {
+            mavenLocal()
+            maven { 
+                url "http://192.168.1.11:8088/repository/maven-public/" 
+                allowInsecureProtocol = true
+            }
+        }
+    }
+
+    repositories {
+        mavenLocal()
+        maven { 
+            url "http://192.168.1.11:8088/repository/maven-public/" 
+            allowInsecureProtocol = true
+        }
+    }
+}
+</code></pre>
+<h2 id="mirror-maven-repos-for-maven-pomxml"><a aria-hidden="true" class="anchor-heading icon-link" href="#mirror-maven-repos-for-maven-pomxml"></a>Mirror Maven repos for Maven (pom.xml)</h2>
+<p>In the <code>$USERHOME/.m2/settings.xml</code> file,</p>
+<pre><code>&#x3C;settings>
+  &#x3C;mirrors>
+    &#x3C;mirror>
+      &#x3C;!--This sends everything else to /public -->
+      &#x3C;id>nexus&#x3C;/id>
+      &#x3C;mirrorOf>*&#x3C;/mirrorOf>
+      &#x3C;url>http://192.168.1.11:8088/repository/maven-public/&#x3C;/url>
+    &#x3C;/mirror>
+  &#x3C;/mirrors>
+  &#x3C;profiles>
+    &#x3C;profile>
+      &#x3C;id>nexus&#x3C;/id>
+      &#x3C;!--Enable snapshots for the built in central repo to direct -->
+      &#x3C;!--all requests to nexus via the mirror -->
+      &#x3C;repositories>
+        &#x3C;repository>
+          &#x3C;id>central&#x3C;/id>
+          &#x3C;url>http://central&#x3C;/url>
+          &#x3C;releases>&#x3C;enabled>true&#x3C;/enabled>&#x3C;/releases>
+          &#x3C;snapshots>&#x3C;enabled>true&#x3C;/enabled>&#x3C;/snapshots>
+        &#x3C;/repository>
+      &#x3C;/repositories>
+     &#x3C;pluginRepositories>
+        &#x3C;pluginRepository>
+          &#x3C;id>central&#x3C;/id>
+          &#x3C;url>http://central&#x3C;/url>
+          &#x3C;releases>&#x3C;enabled>true&#x3C;/enabled>&#x3C;/releases>
+          &#x3C;snapshots>&#x3C;enabled>true&#x3C;/enabled>&#x3C;/snapshots>
+        &#x3C;/pluginRepository>
+      &#x3C;/pluginRepositories>
+    &#x3C;/profile>
+  &#x3C;/profiles>
+  &#x3C;activeProfiles>
+    &#x3C;!--make the profile active all the time -->
+    &#x3C;activeProfile>nexus&#x3C;/activeProfile>
+  &#x3C;/activeProfiles>
+&#x3C;/settings>
+</code></pre>
+<h2 id="mirror-pypi-for-instance"><a aria-hidden="true" class="anchor-heading icon-link" href="#mirror-pypi-for-instance"></a>Mirror PyPi, for instance</h2>
+<p>Create the following in a <code>pip.ini</code> or <code>pip.conf</code> file. In Conda—where I tend to use this the most—place the file in each environment folder and it works great.</p>
+<pre class="language-ini"><code class="language-ini"><span class="token section"><span class="token punctuation">[</span><span class="token section-name selector">global</span><span class="token punctuation">]</span></span>
+<span class="token key attr-name">use-mirrors</span><span class="token punctuation">=</span><span class="token value attr-value">true</span>
+<span class="token key attr-name">mirrors</span><span class="token punctuation">=</span><span class="token value attr-value">http://192.168.1.11:8088/repository/pypi/</span>
+<span class="token key attr-name">index-url</span><span class="token punctuation">=</span><span class="token value attr-value">http://192.168.1.11:8088/repository/pypi/simple/</span>
+<span class="token key attr-name">trusted-host</span><span class="token punctuation">=</span><span class="token value attr-value">192.168.1.11</span>
+</code></pre>
+<h2 id="local-registry-conf-for-podman-containers-folder"><a aria-hidden="true" class="anchor-heading icon-link" href="#local-registry-conf-for-podman-containers-folder"></a>local registry conf for podman containers folder</h2>
+<p><em>Note the 8880 has been configured as a docker repo, not a normal maven, npm, or yum repo. Those are on 8088</em></p>
+<pre class="language-ini"><code class="language-ini"><span class="token comment">#/etc/containers/registries.conf</span>
+
+<span class="token comment">#...</span>
+<span class="token section"><span class="token punctuation">[</span><span class="token section-name selector">registries.search</span><span class="token punctuation">]</span></span>
+<span class="token key attr-name">registries</span> <span class="token punctuation">=</span> <span class="token value attr-value">['192.168.1.11:8880']</span>
+
+<span class="token section"><span class="token punctuation">[</span><span class="token section-name selector">registries.insecure</span><span class="token punctuation">]</span></span>
+<span class="token key attr-name">registries</span> <span class="token punctuation">=</span> <span class="token value attr-value">['192.168.1.11:8880']</span>
+<span class="token comment">#...</span>
+</code></pre>
+<h2 id="docker-desktop-on-windows"><a aria-hidden="true" class="anchor-heading icon-link" href="#docker-desktop-on-windows"></a>Docker desktop on Windows</h2>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"builder"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"gc"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"defaultKeepStorage"</span><span class="token operator">:</span> <span class="token string">"20GB"</span><span class="token punctuation">,</span>
+      <span class="token property">"enabled"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"experimental"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token property">"features"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"buildkit"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"insecure-registries"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">"192.168.1.11"</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"max-concurrent-downloads"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">"registry-mirrors"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">"http://192.168.1.11:8880"</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Once this is configured, I run a script (here: <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">assets\files\cache_images.sh (Private)</a>) from time to time to ensure I have the latest versions in the proxy. </p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-tech-notes/notes/popbcjy9dqfazcfamrq6wfa">Install</a></li>
+</ul>

@@ -1,0 +1,1138 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "notes"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1680540187780,
+      "created": 1680540187780,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "mxgc4uwkaggbr33skdyr3er": {
+      "id": "mxgc4uwkaggbr33skdyr3er",
+      "title": "Root",
+      "desc": "",
+      "updated": 1658781980025,
+      "created": 1658781841009,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "cd32b46dedcf30d08822d76b765cfad7",
+      "links": [],
+      "anchors": {
+        "welcome-to-tech-notes": {
+          "type": "header",
+          "text": "Welcome to Tech Notes",
+          "value": "welcome-to-tech-notes",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "9mb2ancyhiisd1t0ri8enmf",
+        "k11gwwa49rz1xy90k5ujoia"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "k11gwwa49rz1xy90k5ujoia": {
+      "fname": "templates",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1680540187573,
+      "created": 1680540187573,
+      "id": "k11gwwa49rz1xy90k5ujoia",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "hibggjsyyiqa42o0g597av0",
+        "g01qpsav7ksy6zv1ocrcujz",
+        "04jn2sedte3xcnzi9jkh5tj",
+        "3vjwhmh7qwdbpdbj6cpooe9"
+      ],
+      "parent": "mxgc4uwkaggbr33skdyr3er",
+      "data": {},
+      "title": "Templates"
+    },
+    "3vjwhmh7qwdbpdbj6cpooe9": {
+      "id": "3vjwhmh7qwdbpdbj6cpooe9",
+      "title": "Task List",
+      "desc": "",
+      "updated": 1625827127150,
+      "created": 1625827127150,
+      "custom": {},
+      "fname": "templates.task-list",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "af153077dac2ec88d48ec339f274bd19",
+      "links": [],
+      "anchors": {
+        "important": {
+          "type": "header",
+          "text": "Important:",
+          "value": "important",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "planned": {
+          "type": "header",
+          "text": "Planned:",
+          "value": "planned",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "k11gwwa49rz1xy90k5ujoia",
+      "data": {}
+    },
+    "04jn2sedte3xcnzi9jkh5tj": {
+      "id": "04jn2sedte3xcnzi9jkh5tj",
+      "title": "Project",
+      "desc": "",
+      "updated": 1627597601449,
+      "created": 1627011879390,
+      "startDate": "TODO: date to start",
+      "endDate": "TODO: when project ends",
+      "custom": {
+        "startDate": "TODO: date to start",
+        "endDate": "TODO: when project ends"
+      },
+      "fname": "templates.project",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "161a360ed843a890ed847f533c4f66ab",
+      "links": [],
+      "anchors": {
+        "goal": {
+          "type": "header",
+          "text": "Goal",
+          "value": "goal",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "context": {
+          "type": "header",
+          "text": "Context",
+          "value": "context",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "success-criteria": {
+          "type": "header",
+          "text": "Success Criteria",
+          "value": "success-criteria",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "log": {
+          "type": "header",
+          "text": "Log",
+          "value": "log",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "outputs": {
+          "type": "header",
+          "text": "Outputs",
+          "value": "outputs",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "tasks": {
+          "type": "header",
+          "text": "Tasks",
+          "value": "tasks",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "notes": {
+          "type": "header",
+          "text": "Notes",
+          "value": "notes",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
+        "lookup": {
+          "type": "header",
+          "text": "Lookup",
+          "value": "lookup",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "2dh8v33zdid0zbelmtxa5fp"
+      ],
+      "parent": "k11gwwa49rz1xy90k5ujoia",
+      "data": {}
+    },
+    "2dh8v33zdid0zbelmtxa5fp": {
+      "id": "2dh8v33zdid0zbelmtxa5fp",
+      "title": "Writing",
+      "desc": "",
+      "updated": 1629088282640,
+      "created": 1629077359293,
+      "custom": {},
+      "fname": "templates.project.writing",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "1a30a9b088d8e7e0ef0c50a9df44d42c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.project.writing",
+            "id": "2dh8v33zdid0zbelmtxa5fp",
+            "vaultName": "notes"
+          },
+          "value": "proj.",
+          "alias": "proj.",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 3,
+              "offset": 624
+            },
+            "end": {
+              "line": 27,
+              "column": 12,
+              "offset": 633
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "proj."
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.project.writing",
+            "id": "2dh8v33zdid0zbelmtxa5fp",
+            "vaultName": "notes"
+          },
+          "value": "proj..outline",
+          "alias": "proj..outline",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 3,
+              "offset": 636
+            },
+            "end": {
+              "line": 28,
+              "column": 20,
+              "offset": 653
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "proj..outline"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.project.writing",
+            "id": "2dh8v33zdid0zbelmtxa5fp",
+            "vaultName": "notes"
+          },
+          "value": "proj..v1",
+          "alias": "proj..v1",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 3,
+              "offset": 656
+            },
+            "end": {
+              "line": 29,
+              "column": 15,
+              "offset": 668
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "proj..v1"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.project.writing",
+            "id": "2dh8v33zdid0zbelmtxa5fp",
+            "vaultName": "notes"
+          },
+          "value": "proj..v2",
+          "alias": "proj..v2",
+          "position": {
+            "start": {
+              "line": 30,
+              "column": 3,
+              "offset": 671
+            },
+            "end": {
+              "line": 30,
+              "column": 15,
+              "offset": 683
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "proj..v2"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.project.writing",
+            "id": "2dh8v33zdid0zbelmtxa5fp",
+            "vaultName": "notes"
+          },
+          "value": "proj..v3",
+          "alias": "proj..v3",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 3,
+              "offset": 686
+            },
+            "end": {
+              "line": 31,
+              "column": 15,
+              "offset": 698
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "proj..v3"
+          }
+        }
+      ],
+      "anchors": {
+        "goal": {
+          "type": "header",
+          "text": "Goal",
+          "value": "goal",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "context": {
+          "type": "header",
+          "text": "Context",
+          "value": "context",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "success-criteria": {
+          "type": "header",
+          "text": "Success Criteria",
+          "value": "success-criteria",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "log": {
+          "type": "header",
+          "text": "Log",
+          "value": "log",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "outputs": {
+          "type": "header",
+          "text": "Outputs",
+          "value": "outputs",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "tasks": {
+          "type": "header",
+          "text": "Tasks",
+          "value": "tasks",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "notes": {
+          "type": "header",
+          "text": "Notes",
+          "value": "notes",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "lookup": {
+          "type": "header",
+          "text": "Lookup",
+          "value": "lookup",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "04jn2sedte3xcnzi9jkh5tj",
+      "data": {}
+    },
+    "g01qpsav7ksy6zv1ocrcujz": {
+      "id": "g01qpsav7ksy6zv1ocrcujz",
+      "title": "People",
+      "desc": "",
+      "updated": 1635429290959,
+      "created": 1628084685978,
+      "social": {
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null,
+        "discord": null,
+        "github": null,
+        "hn": null,
+        "website": null
+      },
+      "contact": {
+        "number": null,
+        "email": null
+      },
+      "state": null,
+      "location": null,
+      "custom": {
+        "social": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "discord": null,
+          "github": null,
+          "hn": null,
+          "website": null
+        },
+        "contact": {
+          "number": null,
+          "email": null
+        },
+        "state": null,
+        "location": null
+      },
+      "fname": "templates.people",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "b9064908320b20f42d3000664b331fa3",
+      "links": [],
+      "anchors": {
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "first-encounter": {
+          "type": "header",
+          "text": "First Encounter",
+          "value": "first-encounter",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "work": {
+          "type": "header",
+          "text": "Work",
+          "value": "work",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "current": {
+          "type": "header",
+          "text": "Current",
+          "value": "current",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "past": {
+          "type": "header",
+          "text": "Past",
+          "value": "past",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "k11gwwa49rz1xy90k5ujoia",
+      "data": {}
+    },
+    "hibggjsyyiqa42o0g597av0": {
+      "id": "hibggjsyyiqa42o0g597av0",
+      "title": "Daily Journal Template",
+      "desc": "",
+      "updated": 1678751566114,
+      "created": 1678751566114,
+      "custom": {},
+      "fname": "templates.daily",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "e1f0d8277e1584c75299c2e94702fbb1",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.daily",
+            "id": "hibggjsyyiqa42o0g597av0",
+            "vaultName": "notes"
+          },
+          "value": "templates.daily",
+          "alias": "templates.daily",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 68,
+              "offset": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 87,
+              "offset": 86
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "templates.daily"
+          }
+        }
+      ],
+      "anchors": {
+        "morning": {
+          "type": "header",
+          "text": "Morning",
+          "value": "morning",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "gratitude": {
+          "type": "header",
+          "text": "Gratitude",
+          "value": "gratitude",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "what-would-make-today-great": {
+          "type": "header",
+          "text": "What would make today great?",
+          "value": "what-would-make-today-great",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "daily-affirmations": {
+          "type": "header",
+          "text": "Daily affirmations",
+          "value": "daily-affirmations",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        },
+        "evening": {
+          "type": "header",
+          "text": "Evening",
+          "value": "evening",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        },
+        "amazing-things-that-happened-today": {
+          "type": "header",
+          "text": "Amazing things that happened today",
+          "value": "amazing-things-that-happened-today",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "how-could-i-have-made-today-even-better": {
+          "type": "header",
+          "text": "How could I have made today even better?",
+          "value": "how-could-i-have-made-today-even-better",
+          "line": 48,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "k11gwwa49rz1xy90k5ujoia",
+      "data": {}
+    },
+    "9mb2ancyhiisd1t0ri8enmf": {
+      "id": "9mb2ancyhiisd1t0ri8enmf",
+      "title": "Tools",
+      "desc": "",
+      "updated": 1658783905597,
+      "created": 1658783905597,
+      "custom": {},
+      "fname": "tools",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "68934fd6aea08be024b6d6ce479bc197",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "o6tsyurt2ex2ftz0lklubgt",
+        "hgpdr8bnhz1fba3yfa3bm1i",
+        "s1iqvqvxn7ax63x7ckwwi8u",
+        "wkws1y9mx53in0vfd5sug3y"
+      ],
+      "parent": "mxgc4uwkaggbr33skdyr3er",
+      "data": {}
+    },
+    "wkws1y9mx53in0vfd5sug3y": {
+      "fname": "tools.kubernetes",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1680540187588,
+      "created": 1680540187588,
+      "id": "wkws1y9mx53in0vfd5sug3y",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "o8ryrdti1110cj19a5tq1oh"
+      ],
+      "parent": "9mb2ancyhiisd1t0ri8enmf",
+      "data": {},
+      "title": "Kubernetes"
+    },
+    "o8ryrdti1110cj19a5tq1oh": {
+      "fname": "tools.kubernetes.rke2",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1680540187590,
+      "created": 1680540187590,
+      "id": "o8ryrdti1110cj19a5tq1oh",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "popbcjy9dqfazcfamrq6wfa"
+      ],
+      "parent": "wkws1y9mx53in0vfd5sug3y",
+      "data": {},
+      "title": "Rke2"
+    },
+    "popbcjy9dqfazcfamrq6wfa": {
+      "id": "popbcjy9dqfazcfamrq6wfa",
+      "title": "Install",
+      "desc": "",
+      "updated": 1659538110902,
+      "created": 1659537090941,
+      "custom": {},
+      "fname": "tools.kubernetes.rke2.install",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "84b66c97d55b8163d825ed5424ad3e83",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tools.kubernetes.rke2.install",
+            "id": "popbcjy9dqfazcfamrq6wfa",
+            "vaultName": "notes"
+          },
+          "value": "tools.nexus.mirrors",
+          "alias": "Mirrors",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 203,
+              "offset": 1690
+            },
+            "end": {
+              "line": 75,
+              "column": 234,
+              "offset": 1721
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tools.nexus.mirrors"
+          }
+        }
+      ],
+      "anchors": {
+        "for-all-machines": {
+          "type": "header",
+          "text": "For all machines",
+          "value": "for-all-machines",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "create-masters": {
+          "type": "header",
+          "text": "Create Masters",
+          "value": "create-masters",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "workers": {
+          "type": "header",
+          "text": "Workers",
+          "value": "workers",
+          "line": 56,
+          "column": 0,
+          "depth": 2
+        },
+        "airgap-note": {
+          "type": "header",
+          "text": "Airgap note",
+          "value": "airgap-note",
+          "line": 74,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "o8ryrdti1110cj19a5tq1oh",
+      "data": {}
+    },
+    "s1iqvqvxn7ax63x7ckwwi8u": {
+      "id": "s1iqvqvxn7ax63x7ckwwi8u",
+      "title": "Vagrant",
+      "desc": "",
+      "updated": 1658785676959,
+      "created": 1658778310969,
+      "custom": {},
+      "fname": "tools.vagrant",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "84611e843b9dcad56314d506bc8b9d06",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tools.vagrant",
+            "id": "s1iqvqvxn7ax63x7ckwwi8u",
+            "vaultName": "notes"
+          },
+          "value": "assets\\files\\cache_images.sh",
+          "alias": "assets\\files\\cache_images.sh",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 67,
+              "offset": 67
+            },
+            "end": {
+              "line": 2,
+              "column": 99,
+              "offset": 99
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "assets\\files\\cache_images.sh"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9mb2ancyhiisd1t0ri8enmf",
+      "data": {}
+    },
+    "hgpdr8bnhz1fba3yfa3bm1i": {
+      "id": "hgpdr8bnhz1fba3yfa3bm1i",
+      "title": "Nexus",
+      "desc": "",
+      "updated": 1658785125490,
+      "created": 1658775383061,
+      "custom": {},
+      "fname": "tools.nexus",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "137d8a3ac1f43de2beff1c046ef0335d",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "dzuuoyrjdm0zpvrs5fryyp7",
+        "s1olq2enj9qvmncy1fm5o1g",
+        "szlb6ma4pbf2mbt9vw4gk8r"
+      ],
+      "parent": "9mb2ancyhiisd1t0ri8enmf",
+      "data": {}
+    },
+    "szlb6ma4pbf2mbt9vw4gk8r": {
+      "id": "szlb6ma4pbf2mbt9vw4gk8r",
+      "title": "Mirrors",
+      "desc": "",
+      "updated": 1680539925761,
+      "created": 1658775728845,
+      "custom": {},
+      "fname": "tools.nexus.mirrors",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "cdb654b18ba42c0b10b84c05840aaeac",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tools.nexus.mirrors",
+            "id": "szlb6ma4pbf2mbt9vw4gk8r",
+            "vaultName": "notes"
+          },
+          "value": "assets\\files\\cache_images.sh",
+          "alias": "assets\\files\\cache_images.sh",
+          "position": {
+            "start": {
+              "line": 125,
+              "column": 48,
+              "offset": 2848
+            },
+            "end": {
+              "line": 125,
+              "column": 80,
+              "offset": 2880
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "assets\\files\\cache_images.sh"
+          }
+        },
+        {
+          "from": {
+            "fname": "tools.kubernetes.rke2.install",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 203,
+              "offset": 1690
+            },
+            "end": {
+              "line": 75,
+              "column": 234,
+              "offset": 1721
+            },
+            "indent": []
+          },
+          "value": "tools.nexus.mirrors",
+          "alias": "Mirrors"
+        }
+      ],
+      "anchors": {
+        "mirror-maven-repos-for-gradle": {
+          "type": "header",
+          "text": "Mirror Maven repos for Gradle",
+          "value": "mirror-maven-repos-for-gradle",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "mirror-maven-repos-for-maven-pomxml": {
+          "type": "header",
+          "text": "Mirror Maven repos for Maven (pom.xml)",
+          "value": "mirror-maven-repos-for-maven-pomxml",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "mirror-pypi-for-instance": {
+          "type": "header",
+          "text": "Mirror PyPi, for instance",
+          "value": "mirror-pypi-for-instance",
+          "line": 78,
+          "column": 0,
+          "depth": 2
+        },
+        "local-registry-conf-for-podman-containers-folder": {
+          "type": "header",
+          "text": "local registry conf for podman containers folder",
+          "value": "local-registry-conf-for-podman-containers-folder",
+          "line": 90,
+          "column": 0,
+          "depth": 2
+        },
+        "docker-desktop-on-windows": {
+          "type": "header",
+          "text": "Docker desktop on Windows",
+          "value": "docker-desktop-on-windows",
+          "line": 106,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "hgpdr8bnhz1fba3yfa3bm1i",
+      "data": {}
+    },
+    "s1olq2enj9qvmncy1fm5o1g": {
+      "id": "s1olq2enj9qvmncy1fm5o1g",
+      "title": "Endpoints",
+      "desc": "",
+      "updated": 1658776558906,
+      "created": 1658775728845,
+      "custom": {},
+      "fname": "tools.nexus.endpoints",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "ace83af863f436776f338f59f2c408b8",
+      "links": [],
+      "anchors": {
+        "endpoints": {
+          "type": "header",
+          "text": "Endpoints",
+          "value": "endpoints",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "flutter": {
+          "type": "header",
+          "text": "Flutter",
+          "value": "flutter",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "k0s": {
+          "type": "header",
+          "text": "k0s",
+          "value": "k0s",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "hgpdr8bnhz1fba3yfa3bm1i",
+      "data": {}
+    },
+    "dzuuoyrjdm0zpvrs5fryyp7": {
+      "id": "dzuuoyrjdm0zpvrs5fryyp7",
+      "title": "Docker",
+      "desc": "",
+      "updated": 1658775864954,
+      "created": 1658775383046,
+      "custom": {},
+      "fname": "tools.nexus.docker",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "b804f3c61eb77b7069ed9eb1cc5997a1",
+      "links": [],
+      "anchors": {
+        "normal-use": {
+          "type": "header",
+          "text": "Normal Use",
+          "value": "normal-use",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "install": {
+          "type": "header",
+          "text": "Install",
+          "value": "install",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "update": {
+          "type": "header",
+          "text": "Update",
+          "value": "update",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "hgpdr8bnhz1fba3yfa3bm1i",
+      "data": {}
+    },
+    "o6tsyurt2ex2ftz0lklubgt": {
+      "id": "o6tsyurt2ex2ftz0lklubgt",
+      "title": "MacOS",
+      "desc": "",
+      "updated": 1668356979051,
+      "created": 1668356847369,
+      "custom": {},
+      "fname": "tools.macos",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "8deacf722a61a214b3013b116aca906c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "9mb2ancyhiisd1t0ri8enmf",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "mxgc4uwkaggbr33skdyr3er",
+      "title": "Root",
+      "desc": "",
+      "updated": 1658781980025,
+      "created": 1658781841009,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "notes"
+      },
+      "contentHash": "cd32b46dedcf30d08822d76b765cfad7",
+      "links": [],
+      "anchors": {
+        "welcome-to-tech-notes": {
+          "type": "header",
+          "text": "Welcome to Tech Notes",
+          "value": "welcome-to-tech-notes",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "9mb2ancyhiisd1t0ri8enmf",
+        "k11gwwa49rz1xy90k5ujoia"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "# Welcome to Tech Notes\n\nThis was originally stood up to collect gists from github, snippets from gitlab, and any other bits and bobbles spread across the SVCs of my business."
+    }
+  ],
+  "noteIndex": {
+    "id": "mxgc4uwkaggbr33skdyr3er",
+    "title": "Root",
+    "desc": "",
+    "updated": 1658781980025,
+    "created": 1658781841009,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "notes"
+    },
+    "contentHash": "cd32b46dedcf30d08822d76b765cfad7",
+    "links": [],
+    "anchors": {
+      "welcome-to-tech-notes": {
+        "type": "header",
+        "text": "Welcome to Tech Notes",
+        "value": "welcome-to-tech-notes",
+        "line": 7,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "9mb2ancyhiisd1t0ri8enmf",
+      "k11gwwa49rz1xy90k5ujoia"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "# Welcome to Tech Notes\n\nThis was originally stood up to collect gists from github, snippets from gitlab, and any other bits and bobbles spread across the SVCs of my business."
+  },
+  "vaults": [
+    {
+      "fsPath": "notes"
+    }
+  ]
+}

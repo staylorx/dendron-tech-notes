@@ -1,0 +1,184 @@
+{
+  "roots": [
+    {
+      "key": "mxgc4uwkaggbr33skdyr3er",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "notes",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "k11gwwa49rz1xy90k5ujoia",
+          "title": "Templates",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "hibggjsyyiqa42o0g597av0",
+              "title": "Daily Journal Template",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "g01qpsav7ksy6zv1ocrcujz",
+              "title": "People",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "04jn2sedte3xcnzi9jkh5tj",
+              "title": "Project",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "2dh8v33zdid0zbelmtxa5fp",
+                  "title": "Writing",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "3vjwhmh7qwdbpdbj6cpooe9",
+              "title": "Task List",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "9mb2ancyhiisd1t0ri8enmf",
+          "title": "Tools",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "wkws1y9mx53in0vfd5sug3y",
+              "title": "Kubernetes",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "o8ryrdti1110cj19a5tq1oh",
+                  "title": "Rke2",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "popbcjy9dqfazcfamrq6wfa",
+                      "title": "Install",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "o6tsyurt2ex2ftz0lklubgt",
+              "title": "MacOS",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "hgpdr8bnhz1fba3yfa3bm1i",
+              "title": "Nexus",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "dzuuoyrjdm0zpvrs5fryyp7",
+                  "title": "Docker",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "s1olq2enj9qvmncy1fm5o1g",
+                  "title": "Endpoints",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "szlb6ma4pbf2mbt9vw4gk8r",
+                  "title": "Mirrors",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "s1iqvqvxn7ax63x7ckwwi8u",
+              "title": "Vagrant",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "mxgc4uwkaggbr33skdyr3er": null,
+    "k11gwwa49rz1xy90k5ujoia": "mxgc4uwkaggbr33skdyr3er",
+    "3vjwhmh7qwdbpdbj6cpooe9": "k11gwwa49rz1xy90k5ujoia",
+    "04jn2sedte3xcnzi9jkh5tj": "k11gwwa49rz1xy90k5ujoia",
+    "2dh8v33zdid0zbelmtxa5fp": "04jn2sedte3xcnzi9jkh5tj",
+    "g01qpsav7ksy6zv1ocrcujz": "k11gwwa49rz1xy90k5ujoia",
+    "hibggjsyyiqa42o0g597av0": "k11gwwa49rz1xy90k5ujoia",
+    "9mb2ancyhiisd1t0ri8enmf": "mxgc4uwkaggbr33skdyr3er",
+    "wkws1y9mx53in0vfd5sug3y": "9mb2ancyhiisd1t0ri8enmf",
+    "o8ryrdti1110cj19a5tq1oh": "wkws1y9mx53in0vfd5sug3y",
+    "popbcjy9dqfazcfamrq6wfa": "o8ryrdti1110cj19a5tq1oh",
+    "s1iqvqvxn7ax63x7ckwwi8u": "9mb2ancyhiisd1t0ri8enmf",
+    "hgpdr8bnhz1fba3yfa3bm1i": "9mb2ancyhiisd1t0ri8enmf",
+    "szlb6ma4pbf2mbt9vw4gk8r": "hgpdr8bnhz1fba3yfa3bm1i",
+    "s1olq2enj9qvmncy1fm5o1g": "hgpdr8bnhz1fba3yfa3bm1i",
+    "dzuuoyrjdm0zpvrs5fryyp7": "hgpdr8bnhz1fba3yfa3bm1i",
+    "o6tsyurt2ex2ftz0lklubgt": "9mb2ancyhiisd1t0ri8enmf"
+  }
+}
