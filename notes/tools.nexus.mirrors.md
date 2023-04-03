@@ -2,7 +2,7 @@
 id: szlb6ma4pbf2mbt9vw4gk8r
 title: Mirrors
 desc: ''
-updated: 1659538007511
+updated: 1680539925761
 created: 1658775728845
 ---
 
@@ -30,6 +30,50 @@ allprojects {
         }
     }
 }
+```
+
+## Mirror Maven repos for Maven (pom.xml)
+
+In the `$USERHOME/.m2/settings.xml` file,
+
+```
+<settings>
+  <mirrors>
+    <mirror>
+      <!--This sends everything else to /public -->
+      <id>nexus</id>
+      <mirrorOf>*</mirrorOf>
+      <url>http://192.168.1.11:8088/repository/maven-public/</url>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>nexus</id>
+      <!--Enable snapshots for the built in central repo to direct -->
+      <!--all requests to nexus via the mirror -->
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+      </repositories>
+     <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <!--make the profile active all the time -->
+    <activeProfile>nexus</activeProfile>
+  </activeProfiles>
+</settings>
 ```
 
 ## Mirror PyPi, for instance
